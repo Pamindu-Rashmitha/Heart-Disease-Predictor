@@ -11,6 +11,35 @@ Heart disease is one of the leading causes of death globally. This project aims 
 
 The model uses a **Tuned Random Forest Classifier** trained on patient data to classify individuals as either **"Healthy"** or **"High Risk"** (Disease). It provides a probability score (Risk Score) alongside the classification.
 
+## 🧠 Dataset Details
+The dataset contains 14 attributes used for prediction:
+
+* Age: Age in years.
+
+* Sex: 1 = Male, 0 = Female.
+
+* CP: Chest pain type (0-3).
+
+* Trestbps: Resting blood pressure (mm Hg).
+
+* Chol: Serum cholestoral (mg/dl).
+
+* Fbs: Fasting blood sugar > 120 mg/dl (1 = true; 0 = false).
+
+* Restecg: Resting electrocardiographic results (0-2).
+
+* Thalach: Maximum heart rate achieved.
+
+* Exang: Exercise induced angina (1 = yes; 0 = no).
+
+* Oldpeak: ST depression induced by exercise relative to rest.
+
+* Slope: The slope of the peak exercise ST segment.
+
+* Ca: Number of major vessels (0-3) colored by flourosopy.
+
+* Thal: Thalassemia (1 = normal; 2 = fixed defect; 3 = reversable defect).
+
 ## ⚙️ Features
 * **Interactive Web Interface:** User-friendly form to input patient data (Age, BP, Cholesterol, etc.).
 * **Real-time Prediction:** Instant classification with probability estimation.
